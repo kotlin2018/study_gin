@@ -1,0 +1,13 @@
+name: testsvr
+blackip:
+  - 1.1.1.1
+  - 2.2.2.2
+auto: false
+port: 9999
+clusterip: [3.3.3.3,4.4.4.4]
+health:
+  url: http://localhost:5444 # 地址
+  cmd: netstat -anlt # 命令
+  interval: 3s # 间隔时间
+  timeout: 20s # 超时时间
+  disable: true # 是否启用
