@@ -1,4 +1,7 @@
-1、bind包照顾gin binding 包写的，里面大量函数我都照自己的理解写了中文注释。
+前言: 
+	我很喜欢: gin的 RESTful路由、路由分组、ShouldBindJSON()、ShouldBind()方法，这些方法直接将请求参数绑定到结构体。想弄明白gin是怎么做到的这些的，因此有了这个项目。后续我将做一个类似beego、gin的大而全的GolangWeb脚手架
+		
+1、这个项目的bind包是照着 gin binding 包写的，里面大量函数我都照自己的理解写了中文注释。
 
 2、gin 的请求参数绑定，即 `binding:""` 就是这个包实现的。
 
